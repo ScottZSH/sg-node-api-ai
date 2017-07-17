@@ -3,17 +3,18 @@
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
+* [Dependencies](#dependencies)
 
-# Description
+## Description
 
 * Simple API for interacting with API AI
 * Follows the intent naming convention supplied from [api.ai](http://api.ai) and provides method to check if text is of a specific intent.
 
-# Installation
+## Installation
 
 * $ npm install node-api-ai
 
-## usage
+## Usage
 
 ```js
 const AIEntity = require('node-api-ai')
@@ -44,4 +45,9 @@ entity.findIntent('<some text query>')
 })
 
 ```
+
+## Dependencies
+
+* [prettyjson](https://github.com/rafeca/prettyjson)
+* [uuid](https://github.com/kelektiv/node-uuid)
 
