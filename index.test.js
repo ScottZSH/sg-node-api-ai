@@ -3,12 +3,10 @@ const AIEntity = require('./index')
 const MOCK_KEYS = require('./mock.json')
 const { INVALID_KEYS } = require('./errors')
 
-console.log(process.env)
 const REAL_KEYS = process.env.REAL_DEV_KEY ? {
   dev_key: process.env.REAL_DEV_KEY,
   client_key: process.env.REAL_CLIENT_KEY
 } : require('./real.json')
-console.log(REAL_KEYS)
 
 describe('AI Entity API', () => {
   test('Should throw error if misconfigured', () => {

@@ -1,5 +1,11 @@
 # API AI Node Interface
 
+[![Travis](https://img.shields.io/travis/rphansen91/node-api-ai.svg?style=flat-square)](https://travis-ci.org/rphansen91/node-api-ai)
+[![Code Coverage](https://img.shields.io/codecov/c/github/rphansen91/node-api-ai/master.svg?style=flat-square)](https://codecov.io/github/rphansen91/node-api-ai)
+[![Version](https://img.shields.io/npm/v/node-api-ai.svg?style=flat-square)](https://www.npmjs.com/package/node-api-ai)
+[![Downloads](https://img.shields.io/npm/dm/node-api-ai.svg?style=flat-square)](http://npm-stat.com/charts.html?package=node-api-ai&from=2016-08-01)
+[![ISC License](https://img.shields.io/npm/l/node-api-ai.svg?style=flat-square)](http://opensource.org/licenses/ISC)
+
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
