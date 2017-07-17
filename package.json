@@ -15,8 +15,7 @@
   },
   "scripts": {
     "dev": "./node_modules/.bin/nodemon --exec 'npm run lint && npm test && npm start'",
-    "test": "./node_modules/.bin/jest .",
-    "test:c": "./node_modules/.bin/jest . --coverage",
+    "test": "./node_modules/.bin/jest . --coverage",
     "start": "NODE_ENV=dev node index.js",
     "lint": "./node_modules/.bin/eslint .",
     "lint:prod": "NODE_ENV=prod ./node_modules/.bin/eslint ."
