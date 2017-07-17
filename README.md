@@ -12,7 +12,9 @@
 
 ## Installation
 
-* $ npm install node-api-ai
+```
+npm install node-api-ai --save
+```
 
 ## Usage
 
