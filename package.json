@@ -1,0 +1,34 @@
+{
+  "name": "node-api-ai",
+  "version": "1.0.0",
+  "description": "Simple API for interacting with API AI",
+  "main": "index.js",
+  "dependencies": {
+    "prettyjson": "^1.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "jest": "^20.0.4",
+    "nodemon": "^1.11.0",
+    "pre-commit": "^1.2.2"
+  },
+  "scripts": {
+    "dev": "./node_modules/.bin/nodemon --exec 'npm run lint && npm test && npm start'",
+    "test": "./node_modules/.bin/jest .",
+    "test:c": "./node_modules/.bin/jest . --coverage",
+    "start": "NODE_ENV=dev node index.js",
+    "lint": "./node_modules/.bin/eslint .",
+    "lint:prod": "NODE_ENV=prod ./node_modules/.bin/eslint ."
+  },
+  "pre-commit": [
+    "lint:prod",
+    "test"
+  ],
+  "keywords": [],
+  "author": "Ryan P Hansen",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rphansen91/node-api-ai"
+  }
+}
