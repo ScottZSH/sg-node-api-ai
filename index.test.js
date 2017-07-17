@@ -1,8 +1,12 @@
 /*global describe test expect*/
 const AIEntity = require('./index')
-const REAL_KEYS = require('./real.json')
 const MOCK_KEYS = require('./mock.json')
 const { INVALID_KEYS } = require('./errors')
+
+const REAL_KEYS = process.env.REAL_DEV_KEY ? {
+  dev_key: process.env.REAL_DEV_KEY,
+  client_key: process.env.REAL_CLIENT_KEY
+} : require('./real.json')
 
 describe('AI Entity API', () => {
   test('Should throw error if misconfigured', () => {
