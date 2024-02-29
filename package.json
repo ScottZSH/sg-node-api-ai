@@ -1,6 +1,6 @@
 {
-  "name": "node-api-ai",
-  "version": "1.0.0",
+  "name": "sg-node-api-ai",
+  "version": "1.0.1",
   "description": "Simple API for interacting with API AI",
   "main": "index.js",
   "dependencies": {
@@ -25,10 +25,10 @@
     "test"
   ],
   "keywords": [],
-  "author": "Ryan P Hansen",
+  "author": "Scott",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rphansen91/node-api-ai"
+    "url": "https://github.com/ScottZSH/sg-node-api-ai.git"
   }
 }
